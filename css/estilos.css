@@ -1,0 +1,95 @@
+/* <-- ========= RESPONSIVE =========--> */
+	/* <-- ========= XS =========--> */
+@media screen and (min-width: 200px) {
+	#nav-menu { 
+		border-radius: 10px 10px 0 0;
+		box-shadow: 0 -5px 8px -5px black;
+	}
+	nav {
+		background-color: white;
+	}
+	body {
+		padding-bottom: 3.2rem;
+	}
+}
+	/* <-- ========= MD =========--> */
+@media screen and (min-width: 768px) {
+	#nav-menu { 
+		box-shadow: none;
+		border-radius: none;
+	}
+	nav {
+		top: 0px;
+		height: fit-content;
+	}
+	body {
+		padding-top: 3.5rem;
+		padding-bottom: 0;
+	}
+
+
+}
+	/* <-- ========= LG =========--> */
+@media screen and (min-width: 992px) {
+	.accordion-header button[aria-expanded=true] {
+		border-radius: 5px 5px 0 0;
+		transition: 1s;
+	}
+	.accordion-header button[aria-expanded=false] {
+		border-radius: 5px;
+		transition: 1s;
+	}
+}
+
+#nav-menu a:hover,
+.navbar button:hover,
+.socialmedia i:hover {
+	color: gray;
+}
+
+#nav-menu li a { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center;
+	color: black;
+	font-weight: 450;
+	text-decoration: none;
+}
+
+.navbar-toggler[aria-expanded="false"] .bi-chevron-double-down {
+	display: none;
+}
+
+.navbar-toggler[aria-expanded="true"] .bi-subtract {
+	display: none;
+}
+
+#skills button{
+	background: grey;
+	color: whitesmoke;
+}
+#skills button::after {
+	background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.contactme {
+	background-color: gray;
+	color: white;
+}
+
+
+form button:hover, #inicio .d-md-block a:hover {
+	background-color: lightgray;
+}
+
+form button:active, #inicio .d-md-block a:active{
+	background-color: rgb(229, 227, 227);
+}
+
+form label {
+	margin-left: 12px;
+}
+
+footer a:hover i {
+	color: lightgray;
+}
